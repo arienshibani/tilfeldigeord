@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arien Shibani",
-  "license": "ISC"
+  "license": "Unlicense License",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arienshibani/tilfeldigeord"
+  },
+  "keywords": ["tilfeldige", "ord", "tilfeldigeord", "random", "words", "generator", "norwegian", "buglife"],
+  "homepage": "https://github.com/arienshibani/tilfeldigeord"
 }
