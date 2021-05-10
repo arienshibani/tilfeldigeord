@@ -1,4 +1,4 @@
-# tilfeldigeord
+# tilfeldigeord v1.0.1
 Randomly generate Norwegian strings consisting of one adjective and one noun.
 
 ## Install
