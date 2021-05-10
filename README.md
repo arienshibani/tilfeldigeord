@@ -9,6 +9,8 @@ Usefull for generating usernames or automatically generated reference codes for 
 
 ## Usage
 
+Generate random adjective/noun combinations on the fly!
+
 ```javascript
 var random_string = require("tilfeldigeord");
 random_string() > "kollektiv fødselsdag";
