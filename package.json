@@ -1,7 +1,7 @@
 {
   "name": "tilfeldigeord",
-  "version": "1.0.3",
-  "description": "Returns random adjektives and nouns in Norwegian.",
+  "version": "1.0.4",
+  "description": "Returns random, norwegian adjectives/noun combinations.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,18 @@
     "type": "git",
     "url": "https://github.com/arienshibani/tilfeldigeord"
   },
-  "keywords": ["tilfeldige", "ord", "tilfeldigeord", "random", "words", "generator", "norwegian", "buglife"],
-  "homepage": "https://github.com/arienshibani/tilfeldigeord"
+  "keywords": [
+    "tilfeldige",
+    "ord",
+    "tilfeldigeord",
+    "random",
+    "words",
+    "generator",
+    "norwegian",
+    "buglife"
+  ],
+  "homepage": "https://github.com/arienshibani/tilfeldigeord",
+  "devDependencies": {
+    "ava": "^3.15.0"
+  }
 }
