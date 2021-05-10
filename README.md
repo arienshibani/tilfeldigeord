@@ -12,9 +12,9 @@ For generating usernames or automatically generated reference codes for norwegia
 Generate random adjective/noun combinations on the fly!
 
 ```javascript
-const tilfeldig = require("tilfeldigeord");
+const tilfeldig = require('tilfeldigeord');
 
-tilfeldig.getTilfeldigOrd() > "kollektiv fødselsdag";
-tilfeldig.getTilfeldigOrd() > "flott hus";
-tilfeldig.getTilfeldigOrd() > "verdifull dialog";
+tilfeldig.getTilfeldigOrd() ➞ 'kollektiv fødselsdag';
+tilfeldig.getTilfeldigOrd() ➞ 'flott hus';
+tilfeldig.getTilfeldigOrd() ➞ 'verdifull dialog';
 ```
