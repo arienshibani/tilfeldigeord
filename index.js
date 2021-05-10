@@ -112,7 +112,6 @@ const adjektiv = [
   "fraværende",
   "frustrerende",
   "førstkommende",
-  "gratis",
   "hoppende",
   "klissete",
   "litt",
@@ -152,10 +151,8 @@ const adjektiv = [
   "fast",
   "fattig",
   "ferdig",
-  "flott",
   "forbauset",
   "forelsket",
-  "fornøyd",
   "forsinket",
   "forskjellig",
   "fort",
@@ -169,7 +166,6 @@ const adjektiv = [
   "fryktelig",
   "gammeldags",
   "gift",
-  "glad",
   "glatt",
   "gravid",
   "greit",
@@ -480,11 +476,8 @@ const substantiv = [
   "gjenforening",
   "grav",
   "halvøy",
-  "handling",
   "helg",
-  "hindring",
   "høytid",
-  "inntekt",
   "jul",
   "leilighet",
   "likhet",
@@ -601,7 +594,6 @@ const substantiv = [
   "flise",
   "gate",
   "gruppe",
-  "historie",
   "hylle",
   "hytte",
   "jente",
@@ -628,7 +620,6 @@ const substantiv = [
   "prøve",
   "påske",
   "reise",
-  "rose",
   "side",
   "skive",
   "sminke",
@@ -758,13 +749,11 @@ const substantiv = [
   "tillegg",
   "utland",
   "uttrykk",
-  "forhold",
   "fornavn",
   "etternavn",
   "inntrykk",
   "samliv",
   "asylmottak",
-  "samfunn",
   "forbund",
   "livssyn",
   "særtrekk",
@@ -781,15 +770,12 @@ const substantiv = [
   "forsøk",
   "nærvær",
   "håndverk",
-  "grunnlag",
   "vitnemål",
-  "forhold",
   "avslag",
   "militærkupp",
   "antall",
   "sykehus",
   "håndtrykk",
-  "inntrykk",
   "sammendrag",
   "forlag",
   "blodtrykk",
@@ -862,7 +848,6 @@ const substantiv = [
   "studium",
   "stykke",
   "styre",
-  "tema",
   "tilfelle",
   "traume",
   "verksted",
@@ -920,7 +905,6 @@ const substantiv = [
   "etikk",
   "fett",
   "flaks",
-  "folk",
   "forbruk",
   "framtid",
   "fritid",
@@ -996,13 +980,23 @@ const substantiv = [
   "vår",
 ];
 
-module.exports = get_tilfeldig_ord = () => {
-  const tilfeldig_adjektiv =
-    adjektiv[Math.floor(Math.random() * adjektiv.length)];
+module.exports = {
+  getTilfeldigOrd: () => {
+    const tilfeldigAdjektiv =
+      adjektiv[Math.floor(Math.random() * adjektiv.length)];
 
-  const tilfeldig_substantiv =
-    substantiv[Math.floor(Math.random() * substantiv.length)];
+    const tilfeldigSubstantiv =
+      substantiv[Math.floor(Math.random() * substantiv.length)];
 
-  const tilfeldig_ord = `${tilfeldig_adjektiv} ${tilfeldig_substantiv}`;
-  return tilfeldig_ord;
+    const tilfeldigParOrd = `${tilfeldig_adjektiv} ${tilfeldig_substantiv}`;
+    return tilfeldigParOrd;
+  },
+  getAdjektiver: () => {
+    return adjektiv;
+  },
+  getSubstantiver: () => {
+    return substantiv;
+  },
 };
+
+// Written by Arien Shibani 2021
