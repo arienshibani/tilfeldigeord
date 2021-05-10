@@ -1,7 +1,7 @@
-# tilfeldigeord v1.0.3
+# tilfeldigeord v1.0.5
 
 Randomly generate Norwegian strings consisting of one adjective and one noun.
-Usefull for generating usernames or automatically generated reference codes for norwegian users.
+For generating usernames or automatically generated reference codes for norwegian users.
 
 ## Install
 
@@ -12,6 +12,9 @@ Usefull for generating usernames or automatically generated reference codes for 
 Generate random adjective/noun combinations on the fly!
 
 ```javascript
-var random_string = require("tilfeldigeord");
-random_string() > "kollektiv fødselsdag";
+const tilfeldig = require("tilfeldigeord");
+
+tilfeldig.getTilfeldigOrd() > "kollektiv fødselsdag";
+tilfeldig.getTilfeldigOrd() > "flott hus";
+tilfeldig.getTilfeldigOrd() > "verdifull dialog";
 ```

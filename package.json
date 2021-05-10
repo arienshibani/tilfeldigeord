@@ -1,6 +1,6 @@
 {
   "name": "tilfeldigeord",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Returns random, norwegian adjectives/noun combinations.",
   "main": "index.js",
   "scripts": {

@@ -988,7 +988,7 @@ module.exports = {
     const tilfeldigSubstantiv =
       substantiv[Math.floor(Math.random() * substantiv.length)];
 
-    const tilfeldigParOrd = `${tilfeldig_adjektiv} ${tilfeldig_substantiv}`;
+    const tilfeldigParOrd = `${tilfeldigAdjektiv} ${tilfeldigSubstantiv}`;
     return tilfeldigParOrd;
   },
   getAdjektiver: () => {
